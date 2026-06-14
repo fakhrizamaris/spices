@@ -30,10 +30,37 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { slug } = await params
   const product = await getProductBySlug(slug)
   if (!product) return { title: 'Produk tidak ditemukan' }
+
+  const BASE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://jefendispice.my.id'
+  const imgUrl = product.image.startsWith('http') ? product.image : `${BASE_URL}${product.image}`
+  const title = `${product.name_en} Supplier Indonesia — ${siteConfig.name}`
+  const description = `${product.blurb_id} MOQ: ${product.moq}. Ekspor via Pelabuhan Belawan, Sumatera Utara. Hubungi JefendiSpice untuk harga & stok terkini.`
+
   return {
-    title: `${product.name_id} — ${product.name_en}`,
-    description: product.blurb_id,
-    openGraph: { images: [product.image], title: product.name_en, description: product.blurb_id },
+    title,
+    description,
+    keywords: [
+      `${product.name_en.toLowerCase()} exporter indonesia`,
+      `${product.name_en.toLowerCase()} supplier`,
+      `buy ${product.name_en.toLowerCase()} wholesale`,
+      `${product.name_id.toLowerCase()} ekspor`,
+      `${product.scientific} supplier`,
+      'indonesian spice exporter',
+      'north sumatra exporter',
+    ],
+    openGraph: {
+      title,
+      description,
+      images: [{ url: imgUrl, width: 800, height: 600, alt: `${product.name_en} — JefendiSpice` }],
+      type: 'website',
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title,
+      description,
+      images: [imgUrl],
+    },
+    alternates: { canonical: `/products/${slug}` },
   }
 }
 
@@ -45,8 +72,41 @@ export default async function ProductDetailPage({ params }: Props) {
   const all = await getProducts()
   const related = all.filter((p) => p.slug !== slug)
 
+  const BASE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://jefendispice.my.id'
+  const imgUrl = product.image.startsWith('http') ? product.image : `${BASE_URL}${product.image}`
+
+  const productJsonLd = {
+    '@context': 'https://schema.org',
+    '@type': 'Product',
+    name: product.name_en,
+    alternateName: product.name_id,
+    description: product.blurb_id,
+    image: imgUrl,
+    brand: { '@type': 'Brand', name: siteConfig.name },
+    offers: {
+      '@type': 'Offer',
+      availability:
+        product.stock === 'available'
+          ? 'https://schema.org/InStock'
+          : product.stock === 'limited'
+          ? 'https://schema.org/LimitedAvailability'
+          : 'https://schema.org/OutOfStock',
+      seller: {
+        '@type': 'Organization',
+        name: siteConfig.name,
+        url: BASE_URL,
+      },
+      areaServed: ['IN', 'PK', 'BD', 'AE', 'SA', 'ID'],
+      description: `MOQ: ${product.moq}. Kapasitas: ${product.capacity}.`,
+    },
+  }
+
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(productJsonLd) }}
+      />
       <Header />
       <main className="bg-cream">
         {/* Breadcrumb */}
