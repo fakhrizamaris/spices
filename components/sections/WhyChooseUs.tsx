@@ -9,7 +9,7 @@ const FALLBACK_ITEMS: Item[] = [
   { title: 'Dokumen Ekspor Lengkap', desc: 'Setiap pengiriman dilengkapi sertifikat fitosanitasi dan certificate of origin.' },
   { title: 'Stok Bisa Anda Verifikasi', desc: 'Kami tunjukkan stok asli di gudang lewat video call sebelum Anda transfer.' },
   { title: 'Balasan Cepat via WhatsApp', desc: 'Tim kami biasanya membalas pertanyaan harga dan stok dalam kurang dari 2 jam.' },
-  { title: 'Akses Langsung Pelabuhan Belawan', desc: 'Gudang kami dekat Belawan, memudahkan muat kontainer FCL dengan jadwal kirim yang pasti.' },
+  { title: 'Pengiriman Tepat Waktu', desc: 'Gudang kami di Medan dengan akses langsung ke pelabuhan, memudahkan muat kontainer FCL dengan jadwal kirim yang pasti.' },
 ]
 
 // 4 poin kepercayaan dengan bukti konkret. Latar hijau gelap = jeda visual

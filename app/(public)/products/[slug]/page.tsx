@@ -34,7 +34,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const BASE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://jefendispice.my.id'
   const imgUrl = product.image.startsWith('http') ? product.image : `${BASE_URL}${product.image}`
   const title = `${product.name_en} Supplier Indonesia — ${siteConfig.name}`
-  const description = `${product.blurb_id} MOQ: ${product.moq}. Ekspor via Pelabuhan Belawan, Sumatera Utara. Hubungi JefendiSpice untuk harga & stok terkini.`
+  const description = `${product.blurb_id} MOQ: ${product.moq}. Ekspor dari Sumatera Utara. Hubungi JefendiSpice untuk harga & stok terkini.`
 
   return {
     title,

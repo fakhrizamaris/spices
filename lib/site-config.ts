@@ -12,22 +12,20 @@ export const siteConfig = {
 
   // WhatsApp — international format WITHOUT "+" or spaces. e.g. 6281234567890
   whatsappNumber: '6281959243545',
-  email: 'sales@jefendispice.my.id',
+  email: 'joniefendi@gmail.com',
   phoneDisplay: '+62 819-5924-3545',
 
   location: {
     region_id: 'Sumatera Utara, Indonesia',
     region_en: 'North Sumatra, Indonesia',
     city: 'Medan',
-    port: 'Pelabuhan Belawan',
     addressLine: 'Medan, Sumatera Utara, Indonesia',
-    mapsQuery: 'Belawan Port Medan Sumatera Utara',
+    mapsQuery: 'Medan Sumatera Utara Indonesia',
   },
 
   // Trust / capacity figures shown across the site
   stats: {
     monthlyCapacityMT: 200,
-    exportPorts: 'Belawan',
     responseTime_id: 'Biasanya balas < 2 jam',
     responseTime_en: 'Usually replies in < 2 hrs',
     languages_id: 'Melayani Bahasa Indonesia & English',

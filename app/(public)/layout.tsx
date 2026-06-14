@@ -30,7 +30,7 @@ export const metadata: Metadata = {
   },
 
   description:
-    'JefendiSpice — Indonesian spice exporter from North Sumatra. Wholesale areca nut (betel nut), nutmeg, candlenut. Real warehouse stock, export via Belawan port to India, Pakistan & Middle East.',
+    'JefendiSpice — Indonesian spice exporter from North Sumatra. Wholesale areca nut (betel nut), nutmeg, candlenut. Real warehouse stock, export to India, Pakistan & Middle East.',
 
   keywords: [
     'indonesian spice exporter',
@@ -43,7 +43,7 @@ export const metadata: Metadata = {
     'pinang ekspor indonesia',
     'pala ekspor sumatera',
     'kemiri ekspor indonesia',
-    'spice exporter belawan',
+    'spice exporter north sumatra',
     'indonesian wholesale spices',
   ],
 
@@ -103,7 +103,7 @@ const jsonLd = {
       },
       image: OG_IMAGE,
       description:
-        'Indonesian spice exporter specialising in areca nut, nutmeg and candlenut from North Sumatra. Container-scale export via Belawan port.',
+        'Indonesian spice exporter specialising in areca nut, nutmeg and candlenut from North Sumatra. Container-scale export to India, Pakistan & Middle East.',
       address: {
         '@type': 'PostalAddress',
         addressLocality: siteConfig.location.city,
@@ -112,7 +112,7 @@ const jsonLd = {
       },
       geo: {
         '@type': 'GeoCoordinates',
-        // Coordinates for Belawan port, Medan
+        // Coordinates for Medan, Sumatera Utara
         latitude: 3.7917,
         longitude: 98.7003,
       },

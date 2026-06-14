@@ -2,7 +2,6 @@ import { siteConfig } from '@/lib/site-config'
 
 // STEP 4 §4 — Gatekeeping teknis. MOQ, dokumen, port, negara tujuan.
 const EXPORT_FACTS = [
-  { label: 'Port Muat', value: 'Pelabuhan Belawan, Medan' },
   { label: 'Incoterms', value: 'FOB · CIF · CNF' },
   { label: 'Dokumen', value: 'Phytosanitary · Certificate of Origin · Packing List' },
   { label: 'Negara Tujuan', value: 'India · Pakistan · UEA · Arab Saudi · lokal Indonesia' },

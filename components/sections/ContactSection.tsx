@@ -107,10 +107,6 @@ export function ContactSection({ products = [] }: { products?: ProductView[] }) 
                   <dt className="text-primary-200/70 w-20 shrink-0">{lang === 'id' ? 'Lokasi' : 'Location'}</dt>
                   <dd className="text-primary-50">{siteConfig.location.addressLine}</dd>
                 </div>
-                <div className="flex gap-3">
-                  <dt className="text-primary-200/70 w-20 shrink-0">Port</dt>
-                  <dd className="text-primary-50">{siteConfig.location.port}</dd>
-                </div>
               </dl>
             </div>
           </div>

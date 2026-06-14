@@ -16,14 +16,14 @@ import { ContactSection } from '@/components/sections/ContactSection'
 export const metadata: Metadata = {
   title: `${siteConfig.name} — ${siteConfig.tagline_en}`,
   description:
-    'JefendiSpice — eksportir & trader pinang, pala, dan kemiri dari Sumatera Utara. Stok fisik di gudang, ekspor via Belawan ke India, Pakistan & Timur Tengah.',
+    'JefendiSpice — eksportir & trader pinang, pala, dan kemiri dari Sumatera Utara. Stok fisik di gudang, ekspor ke India, Pakistan & Timur Tengah.',
   keywords: [
     'areca nut supplier Indonesia',
     'betel nut exporter',
     'nutmeg supplier Sumatra',
     'candlenut exporter',
     'pinang ekspor Sumatera Utara',
-    'spice exporter Belawan',
+    'spice exporter north sumatra',
   ],
   openGraph: {
     title: `${siteConfig.name} — ${siteConfig.tagline_en}`,

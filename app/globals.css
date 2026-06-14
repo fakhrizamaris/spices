@@ -49,8 +49,8 @@
            before:content-[''] before:w-1.5 before:h-1.5 before:rounded-full before:bg-primary-500;
   }
   .badge-limited {
-    @apply badge bg-accent-400/20 text-accent-700
-           before:content-[''] before:w-1.5 before:h-1.5 before:rounded-full before:bg-accent-600;
+    @apply badge bg-white/90 text-amber-800
+           before:content-[''] before:w-1.5 before:h-1.5 before:rounded-full before:bg-amber-500;
   }
   .badge-out {
     @apply badge bg-stone-100 text-ink-muted line-through decoration-1;

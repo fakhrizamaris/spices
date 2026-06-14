@@ -26,7 +26,7 @@ export function Hero() {
           sizes="100vw"
           className="object-cover object-center"
         />
-        <div className="absolute inset-0 bg-gradient-to-t from-primary-950 via-primary-950/40 to-primary-950/10" />
+        <div className="absolute inset-0 bg-gradient-to-t from-primary-950 via-primary-950/20 to-transparent" />
         <span className="karung-rule absolute inset-x-0 top-0" />
 
         <div className="absolute bottom-4 left-0 right-0">
@@ -35,8 +35,7 @@ export function Hero() {
                             border border-white/20 px-3.5 py-1.5">
               <span className="w-2 h-2 rounded-full bg-whatsapp animate-pulse" />
               <span className="text-primary-50 text-xs sm:text-sm font-medium">
-                {lang === 'id' ? 'Stok fisik' : 'Physical stock'} · {region} ·{' '}
-                {lang === 'id' ? 'Ekspor via' : 'Exported via'} {siteConfig.location.port}
+                {lang === 'id' ? 'Stok fisik' : 'Physical stock'} · {region}
               </span>
             </div>
           </div>
@@ -53,7 +52,7 @@ export function Hero() {
         <p className="mt-6 text-lg text-primary-100/85 max-w-xl">
           {t(
             'landing.hero.subheadline',
-            'Pinang, pala, cengkeh, dan kemiri dari gudang kami di Sumatera Utara — lengkap dengan dokumen ekspor dan dikirim lewat Pelabuhan Belawan.'
+            'Pinang, pala, cengkeh, dan kemiri dari gudang kami di Sumatera Utara — lengkap dengan dokumen ekspor dan siap kirim ke seluruh dunia.'
           )}
         </p>
 
@@ -81,9 +80,9 @@ export function Hero() {
           </div>
           <div>
             <dt className="text-primary-200/70 text-xs">
-              {lang === 'id' ? 'Port ekspor' : 'Export port'}
+              {lang === 'id' ? 'Pasar ekspor' : 'Export market'}
             </dt>
-            <dd className="text-cream font-display text-2xl font-bold">Belawan</dd>
+            <dd className="text-cream font-display text-2xl font-bold">5+ {lang === 'id' ? 'Negara' : 'Countries'}</dd>
           </div>
           <div>
             <dt className="text-primary-200/70 text-xs">

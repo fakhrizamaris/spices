@@ -5,7 +5,7 @@ import { useLanguage } from '@/hooks/useLanguage'
 const FALLBACK = {
   title: 'Tentang JefendiSpice',
   p1: 'JefendiSpice adalah eksportir rempah — bukan petani, melainkan mitra dagang yang mengumpulkan dan menyeleksi hasil panen terbaik dari petani di Sumatera Utara. Kami fokus pada satu hal: memastikan rempah yang Anda pesan sesuai spesifikasi, tepat waktu, dan siap kirim.',
-  p2: 'Kami mengelola jaringan gudang di Sumatera Utara dengan izin ekspor resmi dan akses langsung ke Pelabuhan Belawan. Setiap karung disortir, dijemur, dan diperiksa kadar airnya sebelum masuk kontainer — sehingga Anda menerima mutu yang konsisten di setiap pengiriman.',
+  p2: 'Kami mengelola jaringan gudang di Sumatera Utara dengan izin ekspor resmi dan akses langsung ke pelabuhan. Setiap karung disortir, dijemur, dan diperiksa kadar airnya sebelum masuk kontainer — sehingga Anda menerima mutu yang konsisten di setiap pengiriman.',
   p3: 'Bagi pembeli internasional, kepercayaan dibangun dari bukti. Kami siap menunjukkan stok lewat video call, mengirim sampel atas permintaan, dan melengkapi setiap pengiriman dengan sertifikat fitosanitasi serta certificate of origin. Anda tahu persis apa yang Anda beli sebelum membayar.',
 }
 

@@ -28,7 +28,7 @@ export function Footer() {
             <p className="text-sm mt-2 max-w-xs">
               {t(
                 'landing.footer.tagline',
-                'Eksportir rempah Sumatera Utara — stok nyata, dokumen lengkap, kirim via Belawan.'
+                'Eksportir rempah Sumatera Utara — stok nyata, dokumen lengkap, siap kirim ke mancanegara.'
               )}
             </p>
           </div>
