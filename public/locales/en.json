@@ -1,0 +1,232 @@
+{
+  "nav": {
+    "home": "Home",
+    "products": "Products",
+    "gallery": "Gallery",
+    "about": "About Us",
+    "contact": "Contact",
+    "inquiry": "Send Inquiry"
+  },
+  "hero": {
+    "cta_primary": "View Products",
+    "cta_secondary": "Contact Us",
+    "scroll": "Scroll down"
+  },
+  "products": {
+    "title": "Our Products",
+    "subtitle": "Handpicked spices directly from the finest sources across Indonesia",
+    "all": "All",
+    "featured": "Featured",
+    "search_placeholder": "Search products...",
+    "filter_category": "Category",
+    "min_order": "Min. Order",
+    "origin": "Origin",
+    "forms": "Product Forms",
+    "moisture": "Max. Moisture",
+    "ash": "Max. Ash Content",
+    "inquire": "Request Quote",
+    "back": "Back to Products",
+    "not_found": "Product not found",
+    "categories": {
+      "whole_spice": "Whole Spice",
+      "ground_spice": "Ground Spice",
+      "essential_oil": "Essential Oil",
+      "oleoresin": "Oleoresin",
+      "other": "Other"
+    },
+    "forms_label": {
+      "whole": "Whole",
+      "crushed": "Crushed",
+      "powder": "Powder",
+      "extract": "Extract"
+    }
+  },
+  "gallery": {
+    "title": "Gallery",
+    "subtitle": "Our facilities, processes, and products",
+    "all": "All",
+    "categories": {
+      "facility": "Facility",
+      "product": "Product",
+      "certification": "Certification",
+      "team": "Team",
+      "other": "Other"
+    }
+  },
+  "about": {
+    "title": "About Us",
+    "subtitle": "Decades of experience in premium spice export",
+    "mission_title": "Our Mission",
+    "mission": "To bring the finest Indonesian spices to global markets with international quality standards.",
+    "vision_title": "Our Vision",
+    "vision": "To become the world's most trusted Indonesian spice exporter.",
+    "certifications": "Certifications",
+    "stats": {
+      "years": "Years of Experience",
+      "countries": "Export Destinations",
+      "products": "Spice Varieties",
+      "clients": "Satisfied Clients"
+    }
+  },
+  "contact": {
+    "title": "Contact Us",
+    "subtitle": "We are ready to serve your spice export needs",
+    "email": "Email",
+    "phone": "Phone",
+    "whatsapp": "WhatsApp",
+    "address": "Address",
+    "follow": "Follow Us"
+  },
+  "inquiry": {
+    "title": "Send an Inquiry",
+    "subtitle": "Fill out the form below and our team will get back to you shortly",
+    "name": "Full Name",
+    "email": "Email Address",
+    "company": "Company Name",
+    "phone": "Phone Number",
+    "product": "Product of Interest",
+    "select_product": "Select a product (optional)",
+    "quantity": "Estimated Quantity (kg)",
+    "message": "Message",
+    "message_placeholder": "Describe your requirements in detail...",
+    "submit": "Submit Inquiry",
+    "submitting": "Submitting...",
+    "success_title": "Inquiry Sent!",
+    "success_message": "Thank you. Our team will contact you within 24 hours.",
+    "error_title": "Submission Failed",
+    "error_message": "Something went wrong. Please try again or contact us directly.",
+    "required": "Required",
+    "invalid_email": "Invalid email format"
+  },
+  "footer": {
+    "rights": "All Rights Reserved",
+    "made_in": "Proudly made in Indonesia",
+    "privacy": "Privacy Policy",
+    "terms": "Terms & Conditions"
+  },
+  "common": {
+    "loading": "Loading...",
+    "error": "An error occurred",
+    "retry": "Try Again",
+    "close": "Close",
+    "save": "Save",
+    "cancel": "Cancel",
+    "delete": "Delete",
+    "edit": "Edit",
+    "add": "Add",
+    "search": "Search",
+    "filter": "Filter",
+    "sort": "Sort",
+    "view_all": "View All",
+    "learn_more": "Learn More",
+    "back": "Back",
+    "next": "Next",
+    "previous": "Previous",
+    "yes": "Yes",
+    "no": "No",
+    "confirm": "Confirm",
+    "language": "Language"
+  },
+  "seo": {
+    "home_title": "Premium Indonesian Spice Exporter",
+    "home_description": "We supply export-grade premium Indonesian spices to global markets.",
+    "products_title": "Spice Products",
+    "products_description": "Discover our premium Indonesian spices: pepper, clove, nutmeg, ginger, turmeric, and more.",
+    "gallery_title": "Facility & Product Gallery",
+    "contact_title": "Contact Us"
+  },
+  "landing": {
+    "hero": {
+      "headline": "Certified Export Spices, Ready to Ship",
+      "subheadline": "Areca nut, nutmeg, cloves, and candlenut from our North Sumatra warehouse — shipped from Belawan Port with full export documents.",
+      "cta_primary": "Check stock & pricing on WhatsApp",
+      "cta_secondary": "See products & specs"
+    },
+    "about": {
+      "title": "About JefendiSpice",
+      "p1": "JefendiSpice is a spice exporter — not a farmer, but a trading partner that collects and selects the best harvests from growers across North Sumatra. We focus on one thing: making sure the spices you order match your specifications, arrive on time, and are ready to ship.",
+      "p2": "We run a network of warehouses in North Sumatra with official export licenses and direct access to Belawan Port. Every bag is sorted, sun-dried, and moisture-checked before it enters the container, so you receive consistent quality in every shipment.",
+      "p3": "For international buyers, trust is built on proof. We are ready to show you our stock over a video call, send samples on request, and complete every shipment with a phytosanitary certificate and a certificate of origin. You know exactly what you are buying before you pay."
+    },
+    "products": {
+      "cengkeh": {
+        "name": "Cloves",
+        "description": "Hand-selected dried cloves with minimal stems and a strong aroma. Sought by importers in India and the Middle East for the cigarette, seasoning, and clove-oil industries.",
+        "specs": {
+          "moisture": "Max. 12%",
+          "grade": "Hand-Picked Selected (HPS)",
+          "moq": "5 MT",
+          "packaging": "50 kg jute bags",
+          "origin": "North Sumatra, Indonesia"
+        },
+        "cta": "Ask for clove stock & pricing on WhatsApp"
+      },
+      "pala": {
+        "name": "Nutmeg",
+        "description": "Dried whole nutmeg with high oil content, sorted between sound and shrivel grades. Sourced by importers for culinary spice, pharmaceutical, and oleoresin use.",
+        "specs": {
+          "moisture": "Max. 10%",
+          "grade": "ABCD 80 / Sound",
+          "moq": "3 MT",
+          "packaging": "50 kg jute bags",
+          "origin": "North Sumatra, Indonesia"
+        },
+        "cta": "Ask for nutmeg stock & pricing on WhatsApp"
+      },
+      "pinang": {
+        "name": "Areca (Betel) Nut",
+        "description": "Sun-dried split areca nut with an even reddish-brown color. In high demand from importers in India, Pakistan, and Bangladesh for the chewing and herbal industries.",
+        "specs": {
+          "moisture": "Max. 13%",
+          "grade": "Split / Whole, sun-dried",
+          "moq": "18 MT (1x20ft FCL)",
+          "packaging": "50 kg PP bags",
+          "origin": "North Sumatra, Indonesia"
+        },
+        "cta": "Ask for areca nut stock & pricing on WhatsApp"
+      },
+      "kemiri": {
+        "name": "Candlenut",
+        "description": "Shelled whole candlenut with a low broken rate and a clean cream color. Used for culinary paste, cosmetics, and oil across South Asian markets.",
+        "specs": {
+          "moisture": "Max. 8%",
+          "grade": "Whole (broken max. 2%)",
+          "moq": "5 MT",
+          "packaging": "25 kg cartons",
+          "origin": "North Sumatra, Indonesia"
+        },
+        "cta": "Ask for candlenut stock & pricing on WhatsApp"
+      }
+    },
+    "why_choose_us": {
+      "title": "Why Importers Choose Us",
+      "items": [
+        {
+          "title": "Complete Export Documents",
+          "desc": "Every shipment includes a phytosanitary certificate and a certificate of origin."
+        },
+        {
+          "title": "Stock You Can Verify",
+          "desc": "We show you real warehouse stock over a video call before you transfer payment."
+        },
+        {
+          "title": "Fast WhatsApp Replies",
+          "desc": "Our team usually replies to price and stock questions in under 2 hours."
+        },
+        {
+          "title": "Direct Belawan Port Access",
+          "desc": "Our warehouses sit near Belawan Port for smooth FCL loading and reliable shipping schedules."
+        }
+      ]
+    },
+    "contact": {
+      "headline": "Start With a Sample or a Full Container?",
+      "subtext": "Ask about pricing, MOQ, and stock availability first — no commitment required.",
+      "form_cta": "Send a quote request",
+      "whatsapp_cta": "Chat with us on WhatsApp now"
+    },
+    "footer": {
+      "tagline": "North Sumatra spice exporter — real stock, complete documents, shipped from Belawan."
+    }
+  }
+}

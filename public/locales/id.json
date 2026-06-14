@@ -1,0 +1,232 @@
+{
+  "nav": {
+    "home": "Beranda",
+    "products": "Produk",
+    "gallery": "Galeri",
+    "about": "Tentang Kami",
+    "contact": "Kontak",
+    "inquiry": "Kirim Permintaan"
+  },
+  "hero": {
+    "cta_primary": "Lihat Produk",
+    "cta_secondary": "Hubungi Kami",
+    "scroll": "Gulir ke bawah"
+  },
+  "products": {
+    "title": "Produk Kami",
+    "subtitle": "Rempah pilihan langsung dari sumber terbaik Indonesia",
+    "all": "Semua",
+    "featured": "Unggulan",
+    "search_placeholder": "Cari produk...",
+    "filter_category": "Kategori",
+    "min_order": "Min. Order",
+    "origin": "Asal",
+    "forms": "Bentuk Produk",
+    "moisture": "Kadar Air Maks.",
+    "ash": "Kadar Abu Maks.",
+    "inquire": "Minta Penawaran",
+    "back": "Kembali ke Produk",
+    "not_found": "Produk tidak ditemukan",
+    "categories": {
+      "whole_spice": "Rempah Utuh",
+      "ground_spice": "Rempah Bubuk",
+      "essential_oil": "Minyak Atsiri",
+      "oleoresin": "Oleoresin",
+      "other": "Lainnya"
+    },
+    "forms_label": {
+      "whole": "Utuh",
+      "crushed": "Pecah",
+      "powder": "Bubuk",
+      "extract": "Ekstrak"
+    }
+  },
+  "gallery": {
+    "title": "Galeri",
+    "subtitle": "Fasilitas, proses, dan produk kami",
+    "all": "Semua",
+    "categories": {
+      "facility": "Fasilitas",
+      "product": "Produk",
+      "certification": "Sertifikasi",
+      "team": "Tim",
+      "other": "Lainnya"
+    }
+  },
+  "about": {
+    "title": "Tentang Kami",
+    "subtitle": "Pengalaman puluhan tahun dalam ekspor rempah premium",
+    "mission_title": "Misi Kami",
+    "mission": "Menghadirkan rempah terbaik Indonesia ke pasar global dengan standar kualitas internasional.",
+    "vision_title": "Visi Kami",
+    "vision": "Menjadi eksportir rempah terpercaya yang diakui secara global.",
+    "certifications": "Sertifikasi",
+    "stats": {
+      "years": "Tahun Pengalaman",
+      "countries": "Negara Tujuan",
+      "products": "Jenis Produk",
+      "clients": "Klien Puas"
+    }
+  },
+  "contact": {
+    "title": "Hubungi Kami",
+    "subtitle": "Kami siap melayani kebutuhan ekspor rempah Anda",
+    "email": "Email",
+    "phone": "Telepon",
+    "whatsapp": "WhatsApp",
+    "address": "Alamat",
+    "follow": "Ikuti Kami"
+  },
+  "inquiry": {
+    "title": "Kirim Permintaan",
+    "subtitle": "Isi formulir di bawah ini dan tim kami akan segera menghubungi Anda",
+    "name": "Nama Lengkap",
+    "email": "Alamat Email",
+    "company": "Nama Perusahaan",
+    "phone": "Nomor Telepon",
+    "product": "Produk yang Diminati",
+    "select_product": "Pilih produk (opsional)",
+    "quantity": "Estimasi Kebutuhan (kg)",
+    "message": "Pesan",
+    "message_placeholder": "Deskripsikan kebutuhan Anda secara detail...",
+    "submit": "Kirim Permintaan",
+    "submitting": "Mengirim...",
+    "success_title": "Permintaan Terkirim!",
+    "success_message": "Terima kasih. Tim kami akan menghubungi Anda dalam 1x24 jam.",
+    "error_title": "Gagal Mengirim",
+    "error_message": "Terjadi kesalahan. Silakan coba lagi atau hubungi kami langsung.",
+    "required": "Wajib diisi",
+    "invalid_email": "Format email tidak valid"
+  },
+  "footer": {
+    "rights": "Hak Cipta Dilindungi",
+    "made_in": "Dibuat dengan bangga di Indonesia",
+    "privacy": "Kebijakan Privasi",
+    "terms": "Syarat & Ketentuan"
+  },
+  "common": {
+    "loading": "Memuat...",
+    "error": "Terjadi kesalahan",
+    "retry": "Coba Lagi",
+    "close": "Tutup",
+    "save": "Simpan",
+    "cancel": "Batal",
+    "delete": "Hapus",
+    "edit": "Ubah",
+    "add": "Tambah",
+    "search": "Cari",
+    "filter": "Filter",
+    "sort": "Urutkan",
+    "view_all": "Lihat Semua",
+    "learn_more": "Pelajari Lebih Lanjut",
+    "back": "Kembali",
+    "next": "Selanjutnya",
+    "previous": "Sebelumnya",
+    "yes": "Ya",
+    "no": "Tidak",
+    "confirm": "Konfirmasi",
+    "language": "Bahasa"
+  },
+  "seo": {
+    "home_title": "Eksportir Rempah Premium Indonesia",
+    "home_description": "Kami menyediakan rempah premium Indonesia berkualitas ekspor untuk pasar global.",
+    "products_title": "Produk Rempah",
+    "products_description": "Temukan berbagai rempah premium Indonesia: lada, cengkeh, pala, jahe, kunyit, dan banyak lagi.",
+    "gallery_title": "Galeri Fasilitas & Produk",
+    "contact_title": "Hubungi Kami"
+  },
+  "landing": {
+    "hero": {
+      "headline": "Rempah Ekspor Bersertifikat, Stok Siap Kirim",
+      "subheadline": "Pinang, pala, cengkeh, dan kemiri dari gudang kami di Sumatera Utara — lengkap dengan dokumen ekspor dan dikirim lewat Pelabuhan Belawan.",
+      "cta_primary": "Cek stok & harga via WhatsApp",
+      "cta_secondary": "Lihat produk & spesifikasi"
+    },
+    "about": {
+      "title": "Tentang JefendiSpice",
+      "p1": "JefendiSpice adalah eksportir rempah — bukan petani, melainkan mitra dagang yang mengumpulkan dan menyeleksi hasil panen terbaik dari petani di Sumatera Utara. Kami fokus pada satu hal: memastikan rempah yang Anda pesan sesuai spesifikasi, tepat waktu, dan siap kirim.",
+      "p2": "Kami mengelola jaringan gudang di Sumatera Utara dengan izin ekspor resmi dan akses langsung ke Pelabuhan Belawan. Setiap karung disortir, dijemur, dan diperiksa kadar airnya sebelum masuk kontainer — sehingga Anda menerima mutu yang konsisten di setiap pengiriman.",
+      "p3": "Bagi pembeli internasional, kepercayaan dibangun dari bukti. Kami siap menunjukkan stok lewat video call, mengirim sampel atas permintaan, dan melengkapi setiap pengiriman dengan sertifikat fitosanitasi serta certificate of origin. Anda tahu persis apa yang Anda beli sebelum membayar."
+    },
+    "products": {
+      "cengkeh": {
+        "name": "Cengkeh",
+        "description": "Cengkeh kering hasil seleksi tangan dengan tangkai minim dan aroma kuat. Banyak diminati importir India dan Timur Tengah untuk industri rokok, bumbu, dan minyak atsiri.",
+        "specs": {
+          "moisture": "Maks. 12%",
+          "grade": "Hand-Picked Selected (HPS)",
+          "moq": "5 MT",
+          "packaging": "Karung goni 50 kg",
+          "origin": "Sumatera Utara, Indonesia"
+        },
+        "cta": "Tanya stok & harga cengkeh di WhatsApp"
+      },
+      "pala": {
+        "name": "Pala",
+        "description": "Biji pala utuh kering dengan kadar minyak tinggi, disortir antara grade sound dan shrivel. Dicari importir untuk rempah masak, farmasi, dan oleoresin.",
+        "specs": {
+          "moisture": "Maks. 10%",
+          "grade": "ABCD 80 / Sound",
+          "moq": "3 MT",
+          "packaging": "Karung goni 50 kg",
+          "origin": "Sumatera Utara, Indonesia"
+        },
+        "cta": "Tanya stok & harga pala di WhatsApp"
+      },
+      "pinang": {
+        "name": "Pinang",
+        "description": "Pinang belah kering matang dengan warna merah-cokelat merata. Permintaan tinggi dari importir India, Pakistan, dan Bangladesh untuk industri kunyahan dan herbal.",
+        "specs": {
+          "moisture": "Maks. 13%",
+          "grade": "Belah / Utuh, jemur matahari",
+          "moq": "18 MT (1x20ft FCL)",
+          "packaging": "Karung PP 50 kg",
+          "origin": "Sumatera Utara, Indonesia"
+        },
+        "cta": "Tanya stok & harga pinang di WhatsApp"
+      },
+      "kemiri": {
+        "name": "Kemiri",
+        "description": "Kemiri kupas utuh dengan kadar pecah rendah dan warna krem bersih. Digunakan untuk bumbu masak, kosmetik, dan minyak di pasar Asia Selatan.",
+        "specs": {
+          "moisture": "Maks. 8%",
+          "grade": "Utuh (pecah maks. 2%)",
+          "moq": "5 MT",
+          "packaging": "Karton 25 kg",
+          "origin": "Sumatera Utara, Indonesia"
+        },
+        "cta": "Tanya stok & harga kemiri di WhatsApp"
+      }
+    },
+    "why_choose_us": {
+      "title": "Kenapa Importir Memilih Kami",
+      "items": [
+        {
+          "title": "Dokumen Ekspor Lengkap",
+          "desc": "Setiap pengiriman dilengkapi sertifikat fitosanitasi dan certificate of origin."
+        },
+        {
+          "title": "Stok Bisa Anda Verifikasi",
+          "desc": "Kami tunjukkan stok asli di gudang lewat video call sebelum Anda transfer."
+        },
+        {
+          "title": "Balasan Cepat via WhatsApp",
+          "desc": "Tim kami biasanya membalas pertanyaan harga dan stok dalam kurang dari 2 jam."
+        },
+        {
+          "title": "Akses Langsung Pelabuhan Belawan",
+          "desc": "Gudang kami dekat Belawan, memudahkan muat kontainer FCL dengan jadwal kirim yang pasti."
+        }
+      ]
+    },
+    "contact": {
+      "headline": "Mulai dari Sampel atau Satu Kontainer?",
+      "subtext": "Tanya harga, MOQ, dan ketersediaan stok dulu — tanpa keharusan order.",
+      "form_cta": "Kirim permintaan penawaran",
+      "whatsapp_cta": "Chat langsung di WhatsApp"
+    },
+    "footer": {
+      "tagline": "Eksportir rempah Sumatera Utara — stok nyata, dokumen lengkap, kirim via Belawan."
+    }
+  }
+}

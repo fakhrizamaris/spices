@@ -1,0 +1,107 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    @apply font-body;
+  }
+  *,
+  *::before,
+  *::after {
+    box-sizing: border-box;
+  }
+  ::selection {
+    @apply bg-accent/30 text-primary-900;
+  }
+}
+
+@layer components {
+  /* ── Buttons ─────────────────────────────────────────────────────────── */
+  .btn {
+    @apply inline-flex items-center justify-center gap-2 font-semibold rounded-full
+           transition-all active:scale-[0.97]
+           focus:outline-none focus-visible:ring-2 focus-visible:ring-offset-2;
+  }
+  .btn-primary {
+    @apply btn bg-primary text-cream hover:bg-primary-700 px-7 py-3.5 focus-visible:ring-primary;
+  }
+  .btn-secondary {
+    @apply btn bg-transparent border border-secondary-400 text-secondary-700
+           hover:bg-secondary-100 px-7 py-3.5;
+  }
+  .btn-ghost {
+    @apply btn text-primary hover:bg-primary-50 px-5 py-2.5;
+  }
+  .btn-whatsapp {
+    @apply btn bg-whatsapp text-white hover:brightness-95 px-7 py-3.5 ring-2 ring-accent/30;
+  }
+
+  /* ── Stock badges ────────────────────────────────────────────────────── */
+  .badge {
+    @apply inline-flex items-center gap-1.5 text-xs font-semibold px-2.5 py-1 rounded-full;
+  }
+  .badge-available {
+    @apply badge bg-primary-50 text-primary-800
+           before:content-[''] before:w-1.5 before:h-1.5 before:rounded-full before:bg-primary-500;
+  }
+  .badge-limited {
+    @apply badge bg-accent-400/20 text-accent-700
+           before:content-[''] before:w-1.5 before:h-1.5 before:rounded-full before:bg-accent-600;
+  }
+  .badge-out {
+    @apply badge bg-stone-100 text-ink-muted line-through decoration-1;
+  }
+
+  /* ── Form input ──────────────────────────────────────────────────────── */
+  .input {
+    @apply w-full px-3.5 py-2.5 border border-stone-300 rounded-xl text-sm
+           bg-surface text-ink placeholder-ink-muted/60
+           focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent
+           disabled:bg-stone-50 transition-colors;
+  }
+
+  /* ── Signature: karung stripe ────────────────────────────────────────── */
+  .karung-rule {
+    @apply block h-1.5 w-full bg-karung-stripe;
+  }
+  .karung-underline {
+    @apply block h-1 w-16 bg-karung-stripe rounded-full;
+  }
+
+  .container {
+    @apply max-w-7xl mx-auto;
+  }
+}
+
+@layer utilities {
+  /* Tekstur grain halus — atmosfer kasar gudang, tanpa file gambar */
+  .grain {
+    position: relative;
+  }
+  .grain::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    pointer-events: none;
+    opacity: 0.05;
+    mix-blend-mode: overlay;
+    background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+  }
+
+  .line-clamp-2 {
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+  .line-clamp-3 {
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+}
