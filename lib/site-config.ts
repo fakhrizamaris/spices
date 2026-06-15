@@ -11,9 +11,9 @@ export const siteConfig = {
   tagline_en: 'North Sumatra Spice Exporter',
 
   // WhatsApp — international format WITHOUT "+" or spaces. e.g. 6281234567890
-  whatsappNumber: '6281959243545',
+  whatsappNumber: '6282363167934',
   email: 'joniefendi@gmail.com',
-  phoneDisplay: '+62 819-5924-3545',
+  phoneDisplay: '+62 823-6316-7934',
 
   location: {
     region_id: 'Sumatera Utara, Indonesia',
